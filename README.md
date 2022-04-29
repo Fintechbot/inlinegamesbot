@@ -18,7 +18,7 @@ You can see the bot in action by messaging [@inlinegamesbot](https://telegram.me
 
 ## Deploying
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jacklul/inlinegamesbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Fintechbot/inlinegamesbot)
 
 Assuming everything was entered correctly the deploy process should run the following commands automatically and your bot should be instantly working:
 - `php bin/console install` - install database schema
