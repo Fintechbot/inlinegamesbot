@@ -58,8 +58,8 @@ class StartCommand extends UserCommand
         }
 
         $text = Emoji::wavingHand() . ' ';
-        $text .= '<b>' . __('Hi!') . '</b>' . PHP_EOL;
-        $text .= __('To begin, start a message with {USAGE} in any of your chats or click the {BUTTON} button and then select a chat to play in.', ['{USAGE}' => '<b>\'@' . $this->getTelegram()->getBotUsername() . ' ...\'</b>', '{BUTTON}' => '<b>\'' . __('Play') . '\'</b>']);
+        $text .= '<b>' . __('Hey!') . '</b>' . PHP_EOL;
+        $text .= __('To play game, start a message with {USAGE} in any of your chats or click the {BUTTON} button and then select a chat to play in.', ['{USAGE}' => '<b>\'@' . $this->getTelegram()->getBotUsername() . ' ...\'</b>', '{BUTTON}' => '<b>\'' . __('Play') . '\'</b>']);
 
         $data = [
             'chat_id'                  => $chat_id,
