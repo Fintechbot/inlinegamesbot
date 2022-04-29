@@ -25,6 +25,7 @@ use Spatie\Emoji\Emoji;
  */
 class StartCommand extends UserCommand
 {
+    protected $name = 'hello';
     /**
      * @return mixed
      *
