@@ -25,9 +25,7 @@ use Spatie\Emoji\Emoji;
  */
 class StartCommand extends UserCommand
 {
-    protected $name = 'hello';
-    protected $description = 'start bot';
-    protected $usage = '/hello';
+    
     /**
      * @return mixed
      *
